@@ -3,7 +3,7 @@ import express from 'express';
 
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 8080;
 
 //req.query. обращение к cgi параметрам в запросе
 //req.body. полезная нагрузка POST

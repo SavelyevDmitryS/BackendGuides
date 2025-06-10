@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Бекенд приложение",
   "author": "Savelyev-ds",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
